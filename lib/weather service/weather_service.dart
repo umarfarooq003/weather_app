@@ -4,7 +4,7 @@ import '../weather model/weather_model.dart';
 import '../forecast model/forecast_model.dart';
 
 class WeatherService {
-  static const String apiKey = '72688363f4ed0e72b351bb97207fb9f9'; // replace with your actual API key
+  static const String apiKey = '----------------------------------'; // replace with your actual API key
 
   static Future<Weather> fetchWeather({required String city}) async {
     final url = Uri.parse('https://api.openweathermap.org/data/2.5/weather?q=$city&units=metric&appid=$apiKey');
